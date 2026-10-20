@@ -12,34 +12,34 @@ export const ownerProfile: OwnerProfile = {
   subheadline: "Building Reliable, Scalable Frontend Experiences",
   location: "Tamil Nadu, India",
   email: "danishahamed2023@gmail.com",
-  phone: "+91 9842140477",
-  phoneFormatted: "+91 98421 40477",
-  whatsappUrl: "https://wa.me/919842140477",
+  phone: "+91 9360691161",
+  phoneFormatted: "+91 93606 91161",
+  whatsappUrl: "https://wa.me/919360691161",
   githubRepoUrl: "https://github.com/fathima2025-design/Fathima-Nishath-Portfolio",
   livePortfolioUrl: "https://fathima1996.netlify.app/",
   aboutBio: {
-    lead: "Front-End Developer specializing in high-reliability web applications, complex business workflows, and modular React/Next.js architectures.",
+    lead: "Front-End Developer specializing in high-reliability web applications, complex manufacturing ERP workflows, and modular React / Next.js / Redux Toolkit architectures.",
     paragraphs: [
-      "My engineering journey began in full-stack cross-platform development with Flutter, C#, and ASP.NET, where I developed mobile and web solutions with real-time API integrations, token authentication, and relational databases. This foundational background provided deep appreciation for system design, data modeling, and end-to-end data pipelines.",
-      "Today, I focus my engineering practice primarily on frontend engineering with React, Next.js, and Redux Toolkit. In my current role at Kairox AI Tech, I build and maintain the user interface of an enterprise-grade ERP system for the leather manufacturing industry—turning intricate manufacturing processes (tanning stages, batch barcode tracking, procurement, inventory thresholds, and shift roll calls) into responsive, intuitive, and performant web interfaces.",
-      "I prioritize clean code, accessible semantic HTML, reusable component design systems, and resilient asynchronous data caching using RTK Query. I am committed to continuous learning, expanding my technical depth in modern TypeScript patterns and scalable frontend architecture."
+      "My engineering journey began in full-stack cross-platform development with Flutter, C#, and ASP.NET, where I built mobile and web applications with real-time API integrations, token authentication, and relational databases. This foundational background provided deep appreciation for system design, data contracts, and end-to-end data pipelines.",
+      "Today, I focus my engineering practice primarily on frontend engineering with React, Next.js, and Redux Toolkit. In my current role at Kairox AI Tech, I develop and maintain the user interface of the KairoX ERP—an enterprise-grade production and traceability platform for the leather garment manufacturing industry.",
+      "I engineer critical industrial workflows: dynamic Cutting Grid generation, two-door floor event logging, hardware camera barcode/QR scanning (html5-qrcode), label canvas generation (jsbarcode), 3-tier orders explorers, multi-role biometric floor command attendance, and piece-level garment tracing (LTH-BLK-009). I prioritize clean code, modular component architecture, resilient query caching via RTK Query, and accessible, responsive design."
     ],
     coreValues: [
       {
-        title: "Real-World Business Focus",
-        description: "Translating multi-step industrial workflows into clear, error-tolerant interfaces that field operators and supervisors navigate efficiently."
+        title: "Real-World Industrial Focus",
+        description: "Translating multi-department factory workflows (Cutting, Lining, Stitching, Store Hub, Finishing) into responsive, intuitive web interfaces."
       },
       {
-        title: "Modular & Reusable UI",
-        description: "Authoring cohesive, maintainable design systems with isolated UI components, clean props contracts, and strict separation of concerns."
+        title: "Modular State & Query Caching",
+        description: "Architecting centralized Redux Toolkit stores and RTK Query API slices with 28+ tag types for automated cache invalidation and optimistic updates."
       },
       {
-        title: "Robust State & Data Flow",
-        description: "Leveraging Redux Toolkit and RTK Query for predictable cache management, optimistic updates, and clean asynchronous error handling."
+        title: "Hardware & Document Integration",
+        description: "Integrating camera QR/barcode scanners (html5-qrcode), Code128 barcode printers (jsbarcode), and automated PDF/Excel document generators (jspdf, xlsx)."
       },
       {
         title: "Continuous Learning",
-        description: "Actively building on full-stack fundamentals to master cutting-edge React patterns, Next.js rendering strategies, and typed frontend codebases."
+        description: "Actively building on full-stack fundamentals to master cutting-edge React 19 patterns, Next.js App Router rendering, and strict TypeScript."
       }
     ]
   }
@@ -60,13 +60,14 @@ export const experiences: ExperienceItem[] = [
     employmentType: "Full-time",
     summary: "Developing the frontend of an enterprise ERP application for a leather manufacturing business, with responsibility for frontend implementation and backend REST API integration.",
     responsibilities: [
-      "Develop and maintain ERP frontend features using React, Next.js, and JavaScript.",
+      "Develop and maintain ERP frontend features using React, Next.js (App Router), and JavaScript.",
       "Build reusable UI components, layout templates, and modular application pages.",
-      "Integrate REST APIs and manage client data flows using Redux Toolkit and RTK Query.",
-      "Implement complex forms, analytical dashboards, and manufacturing workflow views.",
-      "Work across core modules including production tracking, barcode management, analytics, attendance, inventory, procurement, orders, and administrative interfaces.",
+      "Integrate REST APIs and manage client data flows using Redux Toolkit and RTK Query with automated cache tags.",
+      "Implement complex forms, analytical dashboards, and manufacturing workflows across cutting, lining, stitching, and store hub.",
+      "Work on production tracking, barcode management, analytics, attendance, inventory, procurement, orders, and administrative interfaces.",
+      "Integrate hardware barcode scanning (html5-qrcode), SVG label generation (jsbarcode), and PDF/Excel reports (jspdf, xlsx).",
       "Organize frontend code into reusable components, shared utilities, and feature-specific modules.",
-      "Handle asynchronous API requests, optimistic UI updates, state caching, and user-facing error boundaries."
+      "Handle asynchronous API requests, optimistic UI updates, state caching, error logging middleware, and boundary fallbacks."
     ],
     technologies: [
       "React",
@@ -77,6 +78,11 @@ export const experiences: ExperienceItem[] = [
       "REST APIs",
       "Tailwind CSS",
       "Recharts",
+      "Framer Motion",
+      "html5-qrcode",
+      "jsbarcode",
+      "jspdf",
+      "xlsx",
       "Git"
     ]
   },
@@ -115,163 +121,169 @@ export const experiences: ExperienceItem[] = [
 ];
 
 export const featuredErpProject: FeaturedErpProjectData = {
-  title: "Leather Manufacturing ERP System",
-  subtitle: "Enterprise-grade manufacturing execution & operational management platform",
-  category: "Enterprise Software | Manufacturing ERP",
+  title: "KairoX ERP — Leather Production & Traceability System",
+  subtitle: "Enterprise Manufacturing Execution, Cutting Grid, Barcode Engine & Multi-Tier Garment Traceability",
+  category: "Enterprise Software | Leather Garments & Manufacturing",
   role: "Front-End Developer — Kairox AI Tech",
   company: "Kairox AI Tech",
   duration: "April 2026 – Present",
-  overview: "An enterprise ERP frontend supporting production, inventory, logistics, and operational workflows for a commercial leather manufacturing business. The system replaces fragmented records with a single, synchronized dashboard that tracks hides through chemical tanning, finishing, automated barcode tagging, inventory buffers, and dispatch.",
-  businessContext: "Leather manufacturing involves stringent physical batch processing—ranging from wet blue hides and chemical soaking to splitting, dyeing, and QA inspection. Manual paperwork previously caused discrepancies in chemical consumption, stock tracing, and shift accountability. The ERP platform digitizes each handoff, giving floor supervisors and plant leadership real-time visibility.",
+  overview: "A production-grade manufacturing execution & traceability ERP designed for commercial leather garment and goods manufacturing. The system coordinates the full production traveler lifecycle: raw hide intake, client order release and style breakdown, dynamic pattern Cutting Grid generation, two-door floor event logging, hardware QR/barcode scanning, piece-level garment tracing, multi-role floor command attendance, and piece-rate wage calculation ledgers.",
+  businessContext: "Leather garment manufacturing involves stringent physical batch processing—matching bovine hide grains, precision pattern cutting (body, sleeves, collars), lining assembly, hardware zippers, and multi-stage stitching. A defect at final inspection must immediately trace back to the exact leather lot, cutting sheet row, and operator. The KairoX ERP replaces manual paper travelers with synchronized department dashboards, hardware barcode listeners, and RTK Query state management.",
   responsibilities: [
-    "Architecting and building responsive, modular frontend views in React and Next.js.",
-    "Implementing centralized state slices and automated query caching with Redux Toolkit & RTK Query.",
-    "Designing reusable UI component primitives (data tables, filter toolbars, modal drawers, form validators).",
-    "Integrating 25+ REST API endpoints with standardized token handling and error feedback.",
-    "Building interactive visualization dashboards with Recharts for production throughput and yield analysis."
+    "Developing modular, responsive frontend views in Next.js (App Router) and React 19.",
+    "Architecting the centralized Redux Toolkit store and RTK Query API slice with 28+ tag types for automated cache invalidation.",
+    "Implementing the Barcode & Scanner Engine with html5-qrcode for camera scanning and jsbarcode for printable label sheets.",
+    "Building dynamic Cutting Grid generators with pattern piece breakdowns, job sheet issuance, and two-door stage event logging.",
+    "Engineering the Garment Tracer module for piece-level traveler auditing (LTH-BLK-009) and drawer aggregations (DRW-xxxx).",
+    "Designing multi-role Floor Command & Biometric Attendance interfaces with QR proxy scanning and piece-rate wage runs.",
+    "Integrating client-side export pipelines using jspdf, html2canvas, and xlsx for instant job sheet printing and audit reports."
   ],
   technicalImplementation: [
-    "Modular architecture: feature-based directory structure separating UI components, state queries, and types.",
-    "Asynchronous data layer: RTK Query endpoints for automatic tag invalidation, polling, and cached queries.",
-    "Data validation: robust multi-step form handling with custom input masking for chemical metrics and barcode IDs.",
-    "Performance tuning: memoized selectors, virtualized table rendering for high-volume batch inventories."
+    "Next.js App Router Architecture: Client/server component separation, custom PageTrail breadcrumb context, and layout transitions.",
+    "Redux Toolkit & RTK Query: Centralized apiSlice managing 28+ entity tag types (SKU, Piece, CuttingGrid, Store, WageOrder, MaterialLot) with automatic invalidation.",
+    "Hardware Scanner Integration: html5-qrcode camera barcode/QR reader with debounced lookup hooks and SVG barcode rendering via jsbarcode.",
+    "Error Logging Middleware: Custom errorLogger middleware intercepting 409/410/422 status codes and displaying structured correlation IDs.",
+    "Interactive Visualizations: Recharts responsive containers for factory throughput and yield analysis, custom jacket build animations in Framer Motion."
   ],
   modules: [
     {
-      id: "production-tracking",
-      name: "Production Tracking & Stage Workflows",
-      shortDesc: "Real-time tracking of leather hides through sequential processing stages.",
-      detailedDesc: "Interactive kanban and table views mapping hides from raw beamhouse soaking, liming, tanning, splitting, crust dyeing, through to final finishing. Each stage logs chemical formulation IDs, lot numbers, moisture levels, and timestamped handoffs.",
-      workflowStage: "Beamhouse → Tanning → Crust → Dyeing → Finishing",
+      id: "barcode-management",
+      name: "Barcode & Hardware QR Scanner Engine",
+      shortDesc: "Camera scanner integration, SVG barcode generation, and instant code resolution.",
+      detailedDesc: "Complete barcode management suite powering factory floor hardware. Features camera QR/barcode scanning via html5-qrcode, dynamic Code128 / QR label generation via jsbarcode, employee badge generation, and instant automated code resolution for piece state lookups.",
+      workflowStage: "Hardware Scanner & Factory Floor Receiving",
       keyFeatures: [
-        "Multi-stage pipeline tracker with real-time status badges",
-        "Stage completion modal with yield quantity and weight logging",
-        "Quality control sign-off checkpoints before batch promotion",
-        "Batch delay alerts and supervisor escalation indicators"
+        "Live camera barcode & QR scanner powered by html5-qrcode",
+        "Multi-tab generation: Employee Badges, Material Lots, and Cutting Sheets",
+        "PrintTab with batch label preview and jspdf PDF export",
+        "Instant barcode resolution with debounced hardware input listeners"
       ],
-      frontendTechFocus: "React state machines, Redux Toolkit batch slices, reusable workflow status steppers",
-      metricBadge: "5 Stage Gates"
+      frontendTechFocus: "html5-qrcode, jsbarcode, jspdf, debounced RTK Query hooks, BarcodeStoreProvider",
+      metricBadge: "html5-qrcode & jsbarcode"
     },
     {
-      id: "barcode-management",
-      name: "Barcode & Batch Traceability",
-      shortDesc: "Unique lot identification and handheld scanner input processing.",
-      detailedDesc: "Barcode management module allowing floor workers to scan roll tags, verify batch pedigree, and update lot states with minimal keyboard input. Provides full audit trails from raw supplier lot to dispatched leather rolls.",
-      workflowStage: "Receiving & Production Floor Scanning",
+      id: "production-tracking",
+      name: "Cutting Grid & Production Floor Logging",
+      shortDesc: "Dynamic cutting grid generation, job sheet issuance, and two-door stage logging.",
+      detailedDesc: "The heart of floor operations: allows managers to generate cutting grids across sizes and colours, issue cutting job sheets, and record two-door production events with operator verification. Features the signature jacket build progression (Raw Hide → Cut Patterns → Seam Stitching → Finished Jacket).",
+      workflowStage: "Cutting Grid → Lining → Stitching → Assembly",
       keyFeatures: [
-        "Hardware-ready barcode input listeners with debounce logic",
-        "Instant lot metadata lookup with chemical history",
-        "Printable QR / Code128 barcode label generator previews",
-        "Cross-stage traceability ledger for compliance audits"
+        "Dynamic Cutting Grid generation with row-level memoization",
+        "Two-door production event logging with operator barcode verification",
+        "Jacket build animation sequence (Layers → ScissorsLineDashed → Waypoints → Shirt)",
+        "Job sheet issuance with style recipe breakdown and material consumption"
       ],
-      frontendTechFocus: "Keyboard event hooks, debounced RTK Query lookups, SVG barcode rendering",
-      metricBadge: "Lot Traceability"
+      frontendTechFocus: "React state machines, Redux Toolkit cuttingGrid tag invalidation, Framer Motion sequence",
+      metricBadge: "Two-Door Logging"
+    },
+    {
+      id: "garment-tracer",
+      name: "Garment Tracer & Piece Audit History",
+      shortDesc: "Piece-level audit history from raw hide to finished jacket with preset lookups.",
+      detailedDesc: "Audit engine allowing supervisors to enter or scan any garment QR/barcode ID (e.g. preset LTH-BLK-009) to inspect its full production traveler. Renders timeline milestones (TimelineItem), drawer grouping (DRW-xxxx), defect inspection logs, and operator sign-offs.",
+      workflowStage: "Quality Assurance & Compliance Audit",
+      keyFeatures: [
+        "Instant audit search with preset test barcodes (LTH-BLK-009)",
+        "Chronological traveler timeline displaying every floor transition",
+        "Drawer assignment validation preventing cross-batch contamination",
+        "Defect inspection logs with stage-specific sign-off metadata"
+      ],
+      frontendTechFocus: "TimelineItem component, custom regex lookup validators, drawer merge mapping",
+      metricBadge: "LTH-BLK-009 Preset"
     },
     {
       id: "analytics-dashboards",
-      name: "Analytics & Executive Dashboards",
-      shortDesc: "Operational metrics, yield rates, batch cycle times, and throughput.",
-      detailedDesc: "Executive overview displaying daily hide square footage output, chemical consumption trends, reject/re-dye rates, and plant capacity utilization with interactive date filtering.",
-      workflowStage: "Plant Management & Daily Review",
+      name: "Orders Explorer & Executive Analytics",
+      shortDesc: "3-tier hierarchical order navigator and live factory throughput analytics.",
+      detailedDesc: "Executive analytics and operations explorer with a 3-tier hierarchical drilldown: Client / Order → Style Details → Piece Traveler. Includes interactive throughput line and area charts with Recharts, yield analysis, and piece-level progress bars (OrderProgressBar).",
+      workflowStage: "Executive Operations & Client Tracking",
       keyFeatures: [
-        "Dynamic throughput line and area charts with Recharts",
-        "Defect category distribution donut breakdown",
-        "Shift output comparison metrics with percentage deltas",
-        "CSV and PDF report export integration"
+        "3-tier hierarchical OrdersExplorer (Client -> Style -> Piece)",
+        "Dynamic throughput and yield charts with Recharts",
+        "OrderProgressBar visualizing piece completion milestones",
+        "Excel report export integration powered by xlsx"
       ],
-      frontendTechFocus: "Recharts responsive containers, custom tooltip overlays, memoized chart datasets",
-      metricBadge: "Live Metrics"
-    },
-    {
-      id: "employee-attendance",
-      name: "Employee Attendance & Shifts",
-      shortDesc: "Shift schedules, shop floor attendance, and roll call monitoring.",
-      detailedDesc: "Departmental attendance module tailored for plant shifts (Morning, Evening, Night). Tracks technician presence across tanning pits, splitting machinery, and packing stations.",
-      workflowStage: "Human Resources & Shift Management",
-      keyFeatures: [
-        "Shift calendar with daily attendance status toggles",
-        "Overtime and late arrival automatic calculation",
-        "Department-wise worker allocation to machinery lines",
-        "Monthly attendance summary with exportable logs"
-      ],
-      frontendTechFocus: "Interactive date matrix, custom filtering tabs, accessible status pills",
-      metricBadge: "3 Shift Cycles"
+      frontendTechFocus: "Recharts AreaChart/BarChart, xlsx spreadsheet generator, memoized drilldown selectors",
+      metricBadge: "3-Tier Orders Explorer"
     },
     {
       id: "inventory-materials",
-      name: "Inventory & Raw Materials",
-      shortDesc: "Ledger for raw hides, tanned crusts, and chemical supplies.",
-      detailedDesc: "Comprehensive warehouse inventory tracking physical hide counts, square footage stock, and chemical drums (chromium salts, tanning oils, dyes) with automated low-stock warnings.",
-      workflowStage: "Warehouse & Chemical Store",
+      name: "Store Hub & Materials Inventory",
+      shortDesc: "Raw hide lots, chemical formulations, lining specs, and low-stock alerts.",
+      detailedDesc: "Comprehensive warehouse inventory tracking physical hide counts, square footage stock, chemical drums, and hardware accessories. Enforces reservation locks, prevents lot spec collisions on the cutting floor, and automatically deducts stock upon cutting sheet issuance.",
+      workflowStage: "Store Hub & Chemical Warehouse",
       keyFeatures: [
-        "Categorized stock ledger (Raw Hides, Wet Blue, Crust, Finished)",
-        "Minimum stock threshold alerts with visual urgency indicators",
-        "Batch consumption deduction on stage completion",
-        "Multi-warehouse storage bin location locator"
+        "Material lots query with multi-parameter filtering",
+        "Automatic stock reservation checks preventing ambiguous lot assignment",
+        "Accessory specification & substitution matrix (StoreHubSlice)",
+        "Arrival inspection logging and goods receipt verification"
       ],
-      frontendTechFocus: "Sortable/searchable data tables, badge priority indicators, modal ledger view",
-      metricBadge: "Real-Time Stock"
+      frontendTechFocus: "storeHubSlice, sortable data tables, priority threshold badges, modal inventory drawers",
+      metricBadge: "Lot Reservation Locks"
     },
     {
       id: "procurement-orders",
-      name: "Procurement & Vendor Orders",
-      shortDesc: "Purchase requisitions, vendor PO lifecycles, and Goods Received Notes.",
-      detailedDesc: "Procurement pipeline connecting raw hide suppliers and chemical vendors. Manages requisition approval workflows, purchase orders, shipping ETAs, and GRN verification on delivery.",
-      workflowStage: "Supply Chain & Accounts Payable",
+      name: "Procurement & Job Work Subcontracting",
+      shortDesc: "Purchase order lifecycles, supplier intake receipts, and vendor job work.",
+      detailedDesc: "Supply chain and subcontracting pipeline connecting raw hide suppliers, chemical vendors, and external job work units. Tracks PO creation, shipment ETAs, goods receipt verification (GRN), and job work vendor dispatch via jobWorkApiSlice.",
+      workflowStage: "Procurement & Subcontracting",
       keyFeatures: [
-        "Purchase Order lifecycle (Draft → Approved → Dispatched → Received)",
-        "Goods Received Note (GRN) discrepancy checker",
-        "Vendor performance and fulfillment timeline logs",
-        "Budget allocation vs actual spend tracking"
+        "Purchase Order lifecycle management (PO Creation → Dispatch → Receiving)",
+        "External job work vendor assignment and piece dispatch tracking",
+        "Intake receipt logging with supplier order reconciliation",
+        "Audit trail for subcontracted leather finishing and embossing"
       ],
-      frontendTechFocus: "Multi-step PO creation forms, interactive lifecycle timeline badges",
-      metricBadge: "PO Lifecycle"
+      frontendTechFocus: "jobWorkApiSlice, multi-step PO forms, vendor timeline tracking",
+      metricBadge: "PO & Job Work"
     },
     {
-      id: "administrative-interfaces",
-      name: "Administrative & Access Control",
-      shortDesc: "Role-based access control, security permissions, and audit logs.",
-      detailedDesc: "Granular administrative panel enabling administrators to configure user roles (Plant Manager, Chemical Supervisor, Machine Operator, Auditor), assign module permissions, and inspect system audit logs.",
-      workflowStage: "System Administration & Security",
+      id: "employee-attendance",
+      name: "Floor Command, Attendance & Wages",
+      shortDesc: "Multi-role biometric floor command, QR proxy attendance, and piece-rate wages.",
+      detailedDesc: "Comprehensive workforce management module tailored for plant managers, cutting/stitching supervisors, and security. Features FloorCommandView for QR attendance proxy scanning, employee roster sync via RTK Query (useGetEmployeesQuery), and piece-rate wage calculation runs (/wages).",
+      workflowStage: "Human Resources, Security & Payroll",
       keyFeatures: [
-        "Role-Based Access Control (RBAC) permission matrix",
-        "User profile provisioning with department tagging",
-        "Audit trail inspector logging sensitive data modifications",
-        "System configuration toggles and maintenance mode switches"
+        "Multi-role views: MyAttendanceView, FloorCommandView, OperationsHRView",
+        "QR floor command attendance proxy for fast worker check-in",
+        "Employee roster synchronization with RTK Query (attendanceApiSlice)",
+        "Piece-rate wage run calculations and wage ledger summaries (/wages)"
       ],
-      frontendTechFocus: "Matrix toggle grids, permission check resolvers, secure auth state handling",
-      metricBadge: "RBAC Matrix"
+      frontendTechFocus: "attendanceSlice, attendanceApiSlice, role-gated tabs (HR / Supervisor / Security)",
+      metricBadge: "Floor Command & Wages"
     }
   ],
   challengesAndSolutions: [
     {
-      challenge: "Handling complex, deeply nested multi-step forms across 5 sequential manufacturing stages without losing uncommitted worker inputs.",
-      solution: "Engineered form state persistence using local state combined with Redux Toolkit slices, implementing validation gates at each transition to ensure data integrity.",
-      technicalImpact: "Eliminated mid-session input drops and ensured operators could step between stages seamlessly."
+      challenge: "Floor operators on the production line needed rapid, keyboard-free barcode lookups without flooding backend APIs during rapid hardware scanning.",
+      solution: "Engineered a custom barcode hook leveraging html5-qrcode and debounced lookup queries in RTK Query, caching resolved piece states locally.",
+      technicalImpact: "Achieved sub-second piece state lookups and reduced redundant network queries by over 60% on factory floor tablets."
     },
     {
-      challenge: "Providing low-latency barcode scanner entry on the production floor where rapid keyboard-wedge scans would trigger redundant API queries.",
-      solution: "Built a custom React keyboard listener hook with debounce thresholds and client-side format validation before dispatching RTK Query lookups.",
-      technicalImpact: "Reduced unnecessary network requests by over 60% while providing instant feedback to floor operators."
+      challenge: "The cutting department required generating hundreds of garment pieces from nested size/colour matrices without freezing the browser thread.",
+      solution: "Implemented an asynchronous Cutting Grid generator with row-level memoization, virtualized rendering, and tag-based cache invalidation (CuttingGrid).",
+      technicalImpact: "Eliminated UI stutter and supported cutting sheet generation for thousands of pattern pieces in under 2 seconds."
     },
     {
-      challenge: "Rendering large tabular inventories and historical batch data without UI lag on standard workstation hardware.",
-      solution: "Implemented modular table components with memoized cell renderers, client-side pagination, and targeted column filtering.",
-      technicalImpact: "Maintained smooth 60fps scrolling and rapid filter response across thousands of batch records."
+      challenge: "Preventing out-of-order manufacturing handoffs (e.g. stitching pattern pieces before cutting inspection is verified).",
+      solution: "Built two-door validation gates and client-side state machine guards in Redux, displaying structured error contracts (409 conflict catalog) with request correlation IDs.",
+      technicalImpact: "Guaranteed strict operational compliance and eliminated cross-batch contamination across all physical departments on the factory floor."
     }
   ],
   technologies: [
-    "React",
-    "Next.js",
+    "React 19",
+    "Next.js 16 (App Router)",
     "JavaScript",
     "Redux Toolkit",
     "React Redux",
     "RTK Query",
     "REST APIs",
-    "JSON",
+    "html5-qrcode",
+    "jsbarcode",
     "Tailwind CSS",
     "Framer Motion",
     "Recharts",
+    "jspdf",
+    "xlsx",
     "Git"
   ]
 };
@@ -351,8 +363,8 @@ export const skillCategories: SkillCategory[] = [
     statusLabel: "Current Production Use",
     description: "Core technologies used daily to architect, build, and maintain production enterprise web interfaces.",
     skills: [
-      { name: "React", tag: "Primary" },
-      { name: "Next.js", tag: "Production" },
+      { name: "React 19", tag: "Primary" },
+      { name: "Next.js 16 (App Router)", tag: "Production" },
       { name: "JavaScript (ES6+)", tag: "Core" },
       { name: "HTML5 & Semantic Web", tag: "Standard" },
       { name: "CSS3 & Responsive Layouts", tag: "Standard" },
@@ -360,16 +372,43 @@ export const skillCategories: SkillCategory[] = [
     ]
   },
   {
+    id: "backend-databases",
+    categoryName: "Backend & Databases",
+    status: "production",
+    statusLabel: "Server & Database Proficiency",
+    description: "Server-side runtime, API development, and document/relational databases.",
+    skills: [
+      { name: "Node.js", tag: "Server Runtime" },
+      { name: "Express.js", tag: "Backend Framework" },
+      { name: "MongoDB", tag: "NoSQL Database" },
+      { name: "SQL Server", tag: "Relational DB" },
+      { name: "RESTful APIs", tag: "API Architecture" }
+    ]
+  },
+  {
     id: "state-management",
-    categoryName: "State Management & Caching",
+    categoryName: "State Management & Query Caching",
     status: "production",
     statusLabel: "Current Production Use",
     description: "Predictable application data stores, normalized caches, and reactive state flows.",
     skills: [
       { name: "Redux Toolkit", tag: "Production" },
+      { name: "RTK Query (28+ Tag Types)", tag: "Caching / Endpoints" },
       { name: "React Redux", tag: "Integration" },
-      { name: "RTK Query", tag: "Caching / Endpoints" },
-      { name: "Context API", tag: "Lightweight State" }
+      { name: "Custom Middleware (errorLogger)", tag: "Resilience" }
+    ]
+  },
+  {
+    id: "hardware-integration",
+    categoryName: "Hardware, Barcode & Export Engines",
+    status: "production",
+    statusLabel: "Current Production Use",
+    description: "Hardware scanner integration, barcode label canvas rendering, and client-side document exports.",
+    skills: [
+      { name: "html5-qrcode", tag: "Camera Scanner" },
+      { name: "jsbarcode", tag: "SVG / Canvas Labels" },
+      { name: "jspdf & html2canvas", tag: "PDF Generation" },
+      { name: "xlsx", tag: "Excel Export" }
     ]
   },
   {
@@ -381,9 +420,9 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "REST APIs", tag: "Production" },
       { name: "JSON Data Parsing", tag: "Standard" },
-      { name: "Asynchronous Data Handling", tag: "Async / Await" },
-      { name: "Token-Based Authentication", tag: "JWT / Bearer" },
-      { name: "Error Boundaries & Interceptors", tag: "Resilience" }
+      { name: "Token-Based Auth (JWT)", tag: "Bearer Headers" },
+      { name: "Debounced Query Listeners", tag: "Optimization" },
+      { name: "409/410 Error Catalogs", tag: "Correlation IDs" }
     ]
   },
   {
@@ -394,10 +433,10 @@ export const skillCategories: SkillCategory[] = [
     description: "Reusable component design systems, data visualization, and micro-interactions.",
     skills: [
       { name: "Reusable Component Design", tag: "Architecture" },
-      { name: "Responsive Design (Mobile-Desktop)", tag: "Adaptive" },
       { name: "Recharts", tag: "Data Visualization" },
       { name: "Framer Motion", tag: "Subtle Motion" },
-      { name: "Accessibility (a11y)", tag: "WCAG Principles" }
+      { name: "Lucide React", tag: "Icons" },
+      { name: "Accessible Design (WCAG)", tag: "Accessibility" }
     ]
   },
   {
@@ -438,8 +477,8 @@ export const skillCategories: SkillCategory[] = [
     description: "Technologies actively being applied in personal engineering projects, portfolio architecture, and modern codebases.",
     skills: [
       { name: "TypeScript", tag: "Strict Types / Interfaces" },
-      { name: "Next.js App Router", tag: "Advanced Routing" },
-      { name: "Component Unit Testing", tag: "Quality Assurance" }
+      { name: "Next.js App Router Patterns", tag: "Advanced Routing" },
+      { name: "Automated Linter Integration", tag: "Quality Assurance" }
     ]
   }
 ];

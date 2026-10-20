@@ -20,7 +20,7 @@ export const ContactSection: React.FC = () => {
         <SectionHeader
           eyebrow="Get In Touch"
           title="Direct Contact &amp; Channels"
-          subtitle="Interested in discussing a Front-End Developer or React engineering role? Reach out directly via email, phone, or messaging."
+          subtitle="Feel free to reach out directly via email, phone, or messaging."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -176,16 +176,8 @@ export const ContactSection: React.FC = () => {
 
               <div className="pt-3 border-t border-slate-200/80 space-y-2 text-xs text-slate-600">
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Employment Status:</span>
+                  <span className="text-slate-500">Current Role:</span>
                   <span className="font-semibold text-slate-800">Front-End Developer @ Kairox AI Tech</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Target Roles:</span>
-                  <span className="font-semibold text-slate-800">Front-End Developer / React Engineer</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Work Arrangement:</span>
-                  <span className="font-semibold text-slate-800">Hybrid / Remote / On-site</span>
                 </div>
               </div>
             </div>

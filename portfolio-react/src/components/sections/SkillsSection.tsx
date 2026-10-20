@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layers, Database, Globe, Palette, Wrench, History, GraduationCap } from 'lucide-react';
+import { Layers, Database, Globe, Palette, Wrench, History, GraduationCap, Server } from 'lucide-react';
 import { skillCategories } from '../../data/portfolioData';
 import { SectionHeader } from '../common/SectionHeader';
 import type { SkillProficiencyStatus } from '../../types';
@@ -15,6 +15,8 @@ export const SkillsSection: React.FC = () => {
     switch (id) {
       case 'frontend-core':
         return <Layers className="w-4 h-4 text-brand-600" />;
+      case 'backend-databases':
+        return <Server className="w-4 h-4 text-emerald-600" />;
       case 'state-management':
         return <Database className="w-4 h-4 text-emerald-600" />;
       case 'api-integration':

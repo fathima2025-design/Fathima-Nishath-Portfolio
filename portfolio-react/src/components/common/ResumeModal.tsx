@@ -56,16 +56,6 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 
         {/* Scrollable Body */}
         <div className="p-6 space-y-6 overflow-y-auto">
-          {/* Notice banner */}
-          <div className="p-4 rounded-xl bg-amber-50/80 border border-amber-200/70 text-xs text-amber-800 flex items-start gap-3">
-            <span className="w-2 h-2 rounded-full bg-amber-500 mt-1 shrink-0" />
-            <div>
-              <p className="font-semibold text-amber-900 mb-0.5">Resume File Configuration Note</p>
-              <p className="text-amber-700 leading-relaxed">
-                To link your official PDF document, place your <code className="bg-amber-100 px-1 py-0.5 rounded font-mono text-amber-900">resume.pdf</code> file into the project&apos;s <code className="bg-amber-100 px-1 py-0.5 rounded font-mono text-amber-900">/public</code> folder. The button below triggers a direct email request with one click to ensure recruiters receive the latest verified version.
-              </p>
-            </div>
-          </div>
 
           {/* Quick Contact Bar */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 p-3.5 bg-slate-50 rounded-xl border border-slate-200/60 text-xs text-slate-600">
@@ -141,8 +131,8 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                 <span className="text-[11px] text-slate-500">Asynchronous token handling</span>
               </div>
               <div className="p-2.5 rounded-lg bg-slate-50 border border-slate-200">
-                <span className="font-semibold block text-slate-900">Full-Stack Foundation</span>
-                <span className="text-[11px] text-slate-500">Flutter, C#, ASP.NET, SQL</span>
+                <span className="font-semibold block text-slate-900">Backend &amp; Databases</span>
+                <span className="text-[11px] text-slate-500">Node.js, Express, MongoDB, SQL</span>
               </div>
             </div>
           </div>

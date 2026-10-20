@@ -75,7 +75,7 @@ export const AboutSection: React.FC = () => {
             <div className="p-4 rounded-xl bg-slate-100/80 border border-slate-200/60 text-xs text-slate-600 flex items-center gap-3">
               <Compass className="w-5 h-5 text-brand-600 shrink-0" />
               <span>
-                Based in <strong className="text-slate-800">{ownerProfile.location}</strong>. Open to frontend and React engineer roles.
+                Based in <strong className="text-slate-800">{ownerProfile.location}</strong>. Front-End Developer specializing in React &amp; Next.js.
               </span>
             </div>
           </div>

@@ -12,7 +12,7 @@ Modern, production-ready developer portfolio built with **React**, **TypeScript*
 - **Previous Role:** Flutter Full Stack Developer at **Kullooo Innovative Solutions** (July 2025 – March 2026)
 - **Location:** Tamil Nadu, India
 - **Email:** [danishahamed2023@gmail.com](mailto:danishahamed2023@gmail.com)
-- **Phone:** +91 9842140477
+- **Phone:** +91 9360691161
 - **Existing Live Portfolio:** [https://fathima1996.netlify.app/](https://fathima1996.netlify.app/)
 - **GitHub Portfolio Repository:** [https://github.com/fathima2025-design/Fathima-Nishath-Portfolio](https://github.com/fathima2025-design/Fathima-Nishath-Portfolio)
 
@@ -24,6 +24,7 @@ Modern, production-ready developer portfolio built with **React**, **TypeScript*
 - **Styling:** Tailwind CSS (customized palette with slate, navy, and enterprise accents)
 - **Icons:** Lucide React
 - **Data Visualization:** Recharts (responsive SVG charts for ERP throughput and yield tracking)
+- **Backend & Databases:** Node.js, Express.js, MongoDB, SQL Server
 - **State & Data Concepts:** Redux Toolkit, RTK Query, REST API integrations, Token-based Auth
 - **Code Quality:** Oxlint, strict TypeScript verification (`tsc -b`)
 

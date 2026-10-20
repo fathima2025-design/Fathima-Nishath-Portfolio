@@ -137,8 +137,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume }) => {
               <div className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center mb-2.5">
                 <Sparkles className="w-4 h-4" />
               </div>
-              <div className="text-xs font-bold text-slate-900">Full-Stack Roots</div>
-              <div className="text-[11px] text-slate-500 mt-0.5">Flutter, C# &amp; REST APIs</div>
+              <div className="text-xs font-bold text-slate-900">Backend &amp; Full-Stack</div>
+              <div className="text-[11px] text-slate-500 mt-0.5">Node, Express, MongoDB, C#</div>
             </div>
           </div>
 
