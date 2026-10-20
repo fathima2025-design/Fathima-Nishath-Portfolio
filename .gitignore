@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+dist/
+
+# Extraction & archives
+current-erp-source/
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
